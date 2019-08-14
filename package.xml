@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>RetentionHero</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Identify valuable customers early on and keep them coming back with targeted lifecycle marketing.</summary>
+    <description>Predictive marketing for Magento. Retention Hero analyzes customers' buying behavior and highlights potential stars early. More at http://www.retentionhero.com.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Retention Hero</name><user>retentionhero</user><email>support@retentionhero.com</email></author></authors>
+    <date>2014-11-25</date>
+    <time>04:57:35</time>
+    <contents><target name="magecommunity"><dir name="RetentionHero"><dir name="Core"><dir name="Helper"><file name="Data.php" hash="7a6f5dbd9b8c57dda3a0482b91534736"/></dir><dir name="Model"><file name="Dispatcher.php" hash="7fe0dbcd2709525ab27eb570bd6ab15c"/><dir name="Event"><file name="Abstract.php" hash="39e187db54ed13a8cf2afd1deac7c14c"/><file name="CreateOrder.php" hash="2634dd6631eeb2154f3b58375170113d"/></dir><file name="Observer.php" hash="4761e8229ecde31e405042c370f23c3a"/></dir><dir name="etc"><file name="config.xml" hash="a8c02c4f213466716645db1b4b9a0ae6"/><file name="system.xml" hash="1721810417084d8c601550a32ecd754a"/></dir><dir name="sql"><dir name="retentionhero_setup"><file name="mysql4-install-0.3.0.php" hash="a9a52928c3a7aabd6328ec676ae6462e"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="RetentionHero_Core.xml" hash="d2904bd8da646346bdf68295ded49469"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
