@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/RetentionHero",
+    "name": "OpenMageModuleFostering\/RetentionHero",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "Identify valuable customers early on and keep them coming back with targeted lifecycle marketing.",
     "authors": [
-    {
-        "name": "Retention Hero",
-        "email": "support@retentionhero.com"
-    }
-],
+        {
+            "name": "Retention Hero",
+            "email": "support@retentionhero.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
